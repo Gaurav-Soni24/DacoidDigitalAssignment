@@ -2,6 +2,9 @@
 
 A modern, interactive quiz application built with **React**, **TypeScript**, and **Tailwind CSS**. This platform provides a seamless quiz-taking experience with features like **timed questions**, **instant feedback**, and **progress tracking**.  
 
+
+🌐 [Live Link](https://dacoid-digital-assignment-sigma.vercel.app/) 
+
 ---
 
 
