@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { Separator } from "@/components/ui/separator";
 import {
   History as HistoryIcon,
   Calendar,
@@ -11,8 +10,7 @@ import {
   ArrowUpRight,
   ChevronLeft,
   BarChart3,
-  Clock,
-  Trash2
+  Clock
 } from "lucide-react";
 import { getQuizHistory } from "@/lib/indexedDB";
 import { quizQuestions } from "@/lib/quiz-data";

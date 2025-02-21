@@ -7,7 +7,7 @@ import History from "./pages/History";
 
 function App() {
   return (
-    <ThemeProvider defaultTheme="dark" storageKey="quiz-theme">
+    <ThemeProvider>
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />

@@ -9,7 +9,7 @@ import { quizQuestions } from "@/lib/quiz-data";
 const Results = () => {
   const location = useLocation();
   const navigate = useNavigate();
-  const { answers, score, date } = location.state || { answers: [], score: 0, date: new Date().toISOString() };
+  const { score, date } = location.state || { score: 0, date: new Date().toISOString() };
   
   const percentage = (score / quizQuestions.length) * 100;
   const timeSpent = quizQuestions.reduce((acc, q) => acc + q.timeLimit, 0);
