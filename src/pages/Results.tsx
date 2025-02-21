@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Separator } from "@/components/ui/separator";
-import { Trophy, Home, History, RotateCcw, Share2, Award, Timer, Target, Check, X } from "lucide-react";
+import { Trophy, Home, History, RotateCcw, Share2, Award, Timer} from "lucide-react";
 import { quizQuestions } from "@/lib/quiz-data";
 
 const Results = () => {
